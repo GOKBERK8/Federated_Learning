@@ -1,0 +1,10 @@
+PS C:\Federe_Tez_Projesi> .\venv\Scripts\activate
+(venv) PS C:\Federe_Tez_Projesi> python baseline_model.py
+Sınıflandırma için Merkezi model verisi hazırlanıyor...
+Merkezi model eğitiliyor...
+
+--- Merkezi Model (Baseline) Başarı Metrikleri ---
+Doğruluk Oranı (Accuracy): 0.7303
+F1 Skoru: 0.7073
+--------------------------------------------------
+Not: F1 Skoru dengesiz veri setlerinde asıl başarıyı gösterir.

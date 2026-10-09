@@ -1,0 +1,80 @@
+PS C:\Federe_Tez_Projesi> .\venv\Scripts\activate 
+(venv) PS C:\Federe_Tez_Projesi> python client.py 3
+İstemci 3 başlatılıyor...
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+        Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+                $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+        To view all available options, run:
+
+                $ flower-supernode --help
+
+        Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+INFO :      
+INFO :      Received: train message 20b6c0f7-cfd0-4e7b-b097-2c830d527a1e
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 98e1b72f-7a24-46b5-9131-a4c82ac75738     
+--- İstemci 3: Test Edildi -> MSE: 3703.07, R2: 0.4374 ---
+INFO :      Sent reply
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 72a38063-af32-4fb7-b109-97f55392f1e1
+--- İstemci 3: Test Edildi -> MSE: 3441.94, R2: 0.4770 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 085c06d5-c3a6-4365-a2e1-2f608d17083d
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 72a38063-af32-4fb7-b109-97f55392f1e1
+--- İstemci 3: Test Edildi -> MSE: 3441.94, R2: 0.4770 ---
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 72a38063-af32-4fb7-b109-97f55392f1e1
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 72a38063-af32-4fb7-b109-97f55392f1e1
+--- İstemci 3: Test Edildi -> MSE: 3441.94, R2: 0.4770 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 085c06d5-c3a6-4365-a2e1-2f608d17083d
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit. 
+  warnings.warn(
+--- İstemci 3: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 023997da-7edd-4d23-ac5e-f271e2eff3fa
+--- İstemci 3: Test Edildi -> MSE: 3305.07, R2: 0.4978 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: reconnect message 0a6d141d-addd-4de1-adfe-ab71875df43b
+INFO :      Disconnect and shut down

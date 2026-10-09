@@ -1,0 +1,54 @@
+(venv) PS C:\Federe_Tez_Projesi> python client.py 1
+İstemci 1 başlatılıyor...
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.       
+        Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+                $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+        To view all available options, run:
+
+                $ flower-supernode --help
+
+        Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+
+INFO :      
+INFO :      Received: get_parameters message c0e029dd-0307-4780-b225-97d40ccb0646
+INFO :      Sent reply
+INFO :      
+INFO :      Received: train message 7c47f30b-8f80-4a59-83ab-f28d9451b9f2
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message a0ce2a68-7058-4e69-83e5-9e3445892d2b     
+--- İstemci 1: Test Edildi -> MSE: 25687185.46, R2: -4492.8111 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 0c9c64c0-04fe-401f-a063-6e6b6ebcc68f        
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message af6cbd39-85eb-4f44-8d98-9570a4890b86
+--- İstemci 1: Test Edildi -> MSE: 26502829.01, R2: -4635.5027 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 6a4d7441-181a-42ee-a996-5ca0a2e9a52b        
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message 7059de7d-e07c-44cf-981f-970ec1fbb357     
+--- İstemci 1: Test Edildi -> MSE: 26996077.95, R2: -4721.7935 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: reconnect message e5c4bc97-20be-4cf5-8aaf-b5b519641fc7    
+INFO :      Disconnect and shut down

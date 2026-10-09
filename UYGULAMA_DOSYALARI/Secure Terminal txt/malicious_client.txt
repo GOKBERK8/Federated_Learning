@@ -1,0 +1,44 @@
+(venv) PS C:\Federe_Tez_Projesi> python malicious_client.py 3
+KÖTÜ NİYETLİ İstemci 3 başlatılıyor...
+DİKKAT: Veri zehirleniyor (Etiketler Tersine Çevriliyor!)...
+WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+        Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+                $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+        To view all available options, run:
+
+                $ flower-supernode --help
+
+        Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+INFO :      
+INFO :      Received: train message 3e7658e5-f127-4137-a7d9-b6961f61048f
+--- KÖTÜ NİYETLİ İstemci 3: ZEHİRLİ Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message ed35102e-1206-4f52-a190-8c751643013f
+--- KÖTÜ NİYETLİ İstemci 3 Testi -> Accuracy: 0.3243, F1 Skoru: 0.4624 ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: train message 176f2d8e-e343-41dd-bf26-3acce958ab52
+--- KÖTÜ NİYETLİ İstemci 3: ZEHİRLİ Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message c5b826be-429d-4832-8e23-089e163472ce
+--- KÖTÜ NİYETLİ İstemci 3 Testi -> Accuracy: 0.2770, F1 Skoru: 0.3815 ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: train message 2ac616d5-8b67-4590-90a2-8d9ed8ccb6c5
+--- KÖTÜ NİYETLİ İstemci 3: ZEHİRLİ Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message 6488c0c5-6aa1-4270-ae2f-062babc1262a
+--- KÖTÜ NİYETLİ İstemci 3 Testi -> Accuracy: 0.3176, F1 Skoru: 0.4541 ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: reconnect message 76315f97-6bc5-4995-87f3-96329b83f01b
+INFO :      Disconnect and shut down

@@ -1,0 +1,66 @@
+(venv) PS C:\Federe_Tez_Projesi> python server_secure.py
+KALKAN AKTİF: Dinamik Güven Skoru (Dynamic Trust) destekli sunucu başlatılıyor...
+WARNING :   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+        Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+                $ flower-superlink --insecure
+
+        To view usage and all available options, run:
+
+                $ flower-superlink --help
+
+        Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+
+INFO :      Starting Flower server, config: num_rounds=3, no round_timeout
+INFO :      Flower ECE: gRPC server running (3 rounds), SSL is disabled
+INFO :      [INIT]
+INFO :      Requesting initial parameters from one random client
+INFO :      Received initial parameters from one random client
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+INFO :      aggregate_fit: received 3 results and 0 failures
+
+--- TUR 1: DİNAMİK GÜVEN SKORU ANALİZİ ---
+İstemci 1 -> Sapma Mesafesi: 14.9568 | Güven Skoru (Çarpan): 0.0627       
+İstemci 2 -> Sapma Mesafesi: 51.2181 | Güven Skoru (Çarpan): 0.0192       
+İstemci 3 -> Sapma Mesafesi: 20.4878 | Güven Skoru (Çarpan): 0.0465       
+WARNING :   No fit_metrics_aggregation_fn provided
+INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)     
+INFO :      aggregate_evaluate: received 3 results and 0 failures
+WARNING :   No evaluate_metrics_aggregation_fn provided
+INFO :
+INFO :      [ROUND 2]
+INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+INFO :      aggregate_fit: received 3 results and 0 failures
+
+--- TUR 2: DİNAMİK GÜVEN SKORU ANALİZİ ---
+İstemci 1 -> Sapma Mesafesi: 53.3589 | Güven Skoru (Çarpan): 0.0184       
+İstemci 2 -> Sapma Mesafesi: 19.7155 | Güven Skoru (Çarpan): 0.0483       
+İstemci 3 -> Sapma Mesafesi: 14.5307 | Güven Skoru (Çarpan): 0.0644       
+INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)     
+INFO :      aggregate_evaluate: received 3 results and 0 failures
+INFO :      
+INFO :      [ROUND 3]
+INFO :      configure_fit: strategy sampled 3 clients (out of 3)
+INFO :      aggregate_fit: received 3 results and 0 failures
+
+--- TUR 3: DİNAMİK GÜVEN SKORU ANALİZİ ---
+İstemci 1 -> Sapma Mesafesi: 15.1305 | Güven Skoru (Çarpan): 0.0620       
+İstemci 2 -> Sapma Mesafesi: 19.2715 | Güven Skoru (Çarpan): 0.0493       
+İstemci 3 -> Sapma Mesafesi: 54.7399 | Güven Skoru (Çarpan): 0.0179       
+INFO :      configure_evaluate: strategy sampled 3 clients (out of 3)     
+INFO :      aggregate_evaluate: received 3 results and 0 failures
+INFO :
+INFO :      [SUMMARY]
+INFO :      Run finished 3 round(s) in 30.16s
+INFO :          History (loss, distributed):
+INFO :                  round 1: 0.3138230344895863
+INFO :                  round 2: 0.3406355588009994
+INFO :                  round 3: 0.3115056324328772
+INFO :

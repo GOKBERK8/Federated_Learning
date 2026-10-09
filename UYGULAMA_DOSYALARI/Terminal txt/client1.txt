@@ -1,0 +1,83 @@
+PS C:\Federe_Tez_Projesi> .\venv\Scripts\activate
+(venv) PS C:\Federe_Tez_Projesi> python client.py 1
+İstemci 1 başlatılıyor...
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+        Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+                $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+        To view all available options, run:
+
+                $ flower-supernode --help
+
+        Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+INFO :      
+INFO :      Received: get_parameters message 478a32ad-be1f-4155-9114-d6c72d262cf4
+INFO :      Sent reply
+INFO :      
+INFO :      Received: train message 3bbb7fd5-d527-458d-8c0e-3b202b386638
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message a7302806-7d6f-4af8-a731-bc0b9ee1e09e     
+--- İstemci 1: Test Edildi -> MSE: 3022.87, R2: 0.4712 ---
+INFO :      Sent reply
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 3ad7ba15-4d3f-48e0-b0d6-56a5ed41331e
+--- İstemci 1: Test Edildi -> MSE: 2826.89, R2: 0.5055 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 544e863c-be55-4855-a66a-19d332b58fc5
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 3ad7ba15-4d3f-48e0-b0d6-56a5ed41331e
+--- İstemci 1: Test Edildi -> MSE: 2826.89, R2: 0.5055 ---
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 3ad7ba15-4d3f-48e0-b0d6-56a5ed41331e
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 3ad7ba15-4d3f-48e0-b0d6-56a5ed41331e
+--- İstemci 1: Test Edildi -> MSE: 2826.89, R2: 0.5055 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 544e863c-be55-4855-a66a-19d332b58fc5
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit. 
+  warnings.warn(
+--- İstemci 1: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 8f558eff-d41d-4931-b31a-25c2af5a5926
+--- İstemci 1: Test Edildi -> MSE: 2726.74, R2: 0.5230 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: reconnect message d0f113b4-6d74-4499-b02a-5b19767317cc
+INFO :      Disconnect and shut down

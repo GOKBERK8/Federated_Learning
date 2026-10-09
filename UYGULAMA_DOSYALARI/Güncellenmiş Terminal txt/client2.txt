@@ -1,0 +1,44 @@
+PS C:\Federe_Tez_Projesi> .\venv\Scripts\activate
+(venv) PS C:\Federe_Tez_Projesi> python client.py 2
+İstemci 2 başlatılıyor...
+WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+        Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+                $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+        To view all available options, run:
+
+                $ flower-supernode --help
+
+        Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+INFO :      
+INFO :      Received: train message 2f870139-d20b-4f82-a57a-135649f75cf8
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message 00117a7c-7fb9-48cb-a518-75f1fd20486f
+--- İstemci 2: Test Edildi -> Accuracy: 0.6054, F1 Skoru: 0.7339 ---      
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 7b44104b-e34a-4f33-8396-b00cff03dcc5  
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message 58d8a9e8-9af9-4d85-9709-0d3ec515c975
+--- İstemci 2: Test Edildi -> Accuracy: 0.6190, F1 Skoru: 0.7407 ---      
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message 79288e76-d34d-4254-8219-aa9a448c5542  
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :      
+INFO :      Received: evaluate message b4ebf4f5-adc7-4908-9def-e21eaa05b1a5
+--- İstemci 2: Test Edildi -> Accuracy: 0.7551, F1 Skoru: 0.7931 ---      
+INFO :      Sent reply
+INFO :
+INFO :      Received: reconnect message f424b6ee-d887-4232-aa4c-90371ccb7314
+INFO :      Disconnect and shut down

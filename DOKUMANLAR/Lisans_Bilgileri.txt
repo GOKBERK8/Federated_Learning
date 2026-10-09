@@ -1,0 +1,19 @@
+PROJE KİMLİK BİLGİLERİ
+ÜNİVERSİTE: Düzce Üniversitesi
+FAKÜLTE: Mühendislik Fakültesi
+BÖLÜM: Bilgisayar Mühendisliği
+DÖNEM: 2025 - 2026 Bahar Dönemi
+
+PROJE BİLGİLERİ
+Proje Adı: Federe Öğrenme Sistemlerinde Tehdit Modellemesi ve Dinamik Güven Skoru Tabanlı Savunma Mekanizması
+Proje Kodu: Bitirme Projesi - 2026
+
+PROJE EKİBİ
+Hazırlayan: Gökberk Gökalan
+No: 221002058
+Hazırlayan: Buğrahan Emirdoğan
+No: 221002065
+Danışman: Dr. Öğr. Üyesi Tunahan Timuçin
+
+AÇIKLAMA
+Bu proje, sağlık verilerinin mahremiyetini koruyan dağıtık yapay zeka mimarilerinde siber güvenlik zafiyetlerini incelemek amacıyla geliştirilmiştir. Etiket tersine çevirme saldırıları ve bu saldırılara karşı geliştirilen Dinamik Güven Skoru tabanlı savunma algoritması içerir. Tüm simülasyon kodları, kurulum talimatları ve sunum dosyaları bu flash bellek içerisinde yer almaktadır.

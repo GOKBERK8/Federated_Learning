@@ -1,0 +1,80 @@
+PS C:\Federe_Tez_Projesi> .\venv\Scripts\activate
+(venv) PS C:\Federe_Tez_Projesi> python client.py 2
+İstemci 2 başlatılıyor...
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+WARNING :   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+        Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+                $ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+        To view all available options, run:
+
+                $ flower-supernode --help
+
+        Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+INFO :      
+INFO :      Received: train message b9cf7418-2d72-4c8d-9290-e86627d328ff
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 29fdfb19-27d1-4782-a040-4ed33ac45b38     
+--- İstemci 2: Test Edildi -> MSE: 3596.94, R2: 0.3393 ---
+INFO :      Sent reply
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 5b39c7a0-092e-40cb-99ed-c9ccb7b50567
+--- İstemci 2: Test Edildi -> MSE: 3406.99, R2: 0.3742 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message d2604919-0674-4759-936b-575aa6b62afa
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 5b39c7a0-092e-40cb-99ed-c9ccb7b50567
+--- İstemci 2: Test Edildi -> MSE: 3406.99, R2: 0.3742 ---
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 5b39c7a0-092e-40cb-99ed-c9ccb7b50567
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+adient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 5b39c7a0-092e-40cb-99ed-c9ccb7b50567
+--- İstemci 2: Test Edildi -> MSE: 3406.99, R2: 0.3742 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: train message d2604919-0674-4759-936b-575aa6b62afa
+C:\Federe_Tez_Projesi\venv\Lib\site-packages\sklearn\linear_model\_stochastic_gradient.py:1612: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit. 
+  warnings.warn(
+--- İstemci 2: Model Eğitildi ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: evaluate message 1631aad7-810b-4256-a5af-c534f2364c24
+--- İstemci 2: Test Edildi -> MSE: 3281.63, R2: 0.3972 ---
+INFO :      Sent reply
+INFO :
+INFO :      Received: reconnect message 9202704f-a3b4-407a-af76-08badc85dbd5
+INFO :      Disconnect and shut down
